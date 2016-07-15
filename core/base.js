@@ -23,8 +23,8 @@
     };
 
     // 核心对象
-    window.hwa = $.ligerui = {
-        version: 'V0.0.1'
+    window.hwa = $.hwaui = {
+        version: 'V1.0.0'
     }
         
 })(jQuery);
