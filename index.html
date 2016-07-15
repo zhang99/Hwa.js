@@ -1,0 +1,41 @@
+<!Doctype html>
+<html xmlns=http://www.w3.org/1999/xhtml>
+<head>                 
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="skins/default/css/hwaui-all.css" />  
+	<script type="text/javascript" src="xrd/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="core/base.js"></script>
+	<script type="text/javascript" src="plugins/hwaButton.js"></script>
+	<script type="text/javascript" src="plugins/hwaDrag.js"></script>
+	<script type="text/javascript" src="plugins/hwaDialog.js"></script>
+</head>
+<body>
+
+<br>
+<br>
+
+<div id="btn" class="l-button" style="width: 60px;" ligeruiid="btn">
+	<div class="l-button-l"></div>
+	<div class="l-button-r"></div>
+	<span>Button</span>
+</div>
+
+<button onclick="f_alert('success')">dialog</button>
+
+<script type="text/javascript">
+	var button = $("#btn").hwaButton({
+        click: function ()
+        {
+            alert('111');
+        }
+    });
+
+    function f_alert(type){
+
+    	$.hwaDialog.confirm('提示内容', function (yes) { alert(yes); });
+    }
+
+    
+</script>
+</body>
+</html>
