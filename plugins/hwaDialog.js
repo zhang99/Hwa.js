@@ -3,7 +3,7 @@
 * 
 * https://github.com/zhang99/Hwa.js
 *  
-* Author hwa 2016 [ hwa.z@icloud.com ] 
+* Author hwa 2016 [ hwa.z@foxmail.com ] 
 * 
 */
 
